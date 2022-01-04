@@ -18,7 +18,7 @@
 *Sorted in order from easy to difficult*
 Chapter ID | Chapter Name | Description | Date Created
 ---------- | ------------ | ----------- | ------------
-1| [Docker overview](https://github.com/tienhuynh-tn/docker-basic-tutorial/blob/main/Chapter1.md) | --- | 04-01-2022
+1| [Docker overview](https://github.com/tienhuynh-tn/docker-basic-tutorial/blob/main/Chapter1.md) | - What is Docker? <br/> - What is Docker used for? <br/> - Docker Architecture <br/> - Some concepts in Docker | 04-01-2022
 
 ## Reference
 - [Docker Documentation](https://docs.docker.com/)
