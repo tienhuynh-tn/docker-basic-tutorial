@@ -3,9 +3,9 @@
 Docker là một nền tảng mở cho việc phát triển, vận chuyển và chạy các ứng dụng. 
 
 ## Table of Contents
-1. [Nền tảng Docker - The Docker platform](1-nền-tảng-docker---the-docker-platform)
-2. [Tôi có thể sử dụng Docker để làm gì? - What can I use Docker for?](2-tôi-có-thể-sử-dụng-docker-để-làm-gì---what-can-i-use-docker-for)
-3. [Kiến trúc Docker - Docker architecture](3-kiến-trúc-docker---docker-architecture)
+- [Nền tảng Docker - The Docker platform](1-nền-tảng-docker---the-docker-platform)
+- [Tôi có thể sử dụng Docker để làm gì? - What can I use Docker for?](2-tôi-có-thể-sử-dụng-docker-để-làm-gì---what-can-i-use-docker-for)
+- [Kiến trúc Docker - Docker architecture](3-kiến-trúc-docker---docker-architecture)
 
 ## 1. Nền tảng Docker - The Docker platform
 
