@@ -3,8 +3,8 @@
 Bài này chỉ hướng dẫn cài đặt cho Hệ điều hành Windows. Các hệ điều hành khác có thể tham khảo thêm tại [Docker Desktop](https://docs.docker.com/desktop/).
 
 ## Table of Contents
-- [1. Docker Desktop là gì?](#1-docker desktop-la-gi)
-- [2. Một số tính năng chính của Docker Desktop](#2-mot-so-tinh-nang-chinh-cua-docker-desktop)
+- [1. Docker Desktop là gì?](#1-docker-desktop-là-gì)
+- [2. Một số tính năng chính của Docker Desktop](#2-một-số-tính-năng-chính-của-docker-desktop)
 - [Reference](#reference)
 
 ## 1. Docker Desktop là gì?
