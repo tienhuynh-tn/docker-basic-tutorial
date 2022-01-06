@@ -39,6 +39,16 @@ Docker Desktop hoạt động với sự lựa chọn của bạn về các côn
   ![Setup](./imgs/chapter2/2.png)
 - Sau khi quá trình cài đặt hoàn tất, Docker Desktop sẽ yêu cầu restart máy của bạn, chọn **Close and restart**
   ![Setup](./imgs/chapter2/3.png)
+- Sau khi máy tính được khởi động, Docker Desktop sẽ tự động được mở trở lại, và bạn cần chấp nhận các quy định của Docker Desktop. Nhấn chọn vào **I accept the terms" và sau đó chọn nút **Accept**
+  ![Setup](./imgs/chapter2/4.png)
+- Tuy nhiên lúc này sẽ xuất hiện lỗi do máy bạn chưa được cài đặt [WSL2](https://docs.microsoft.com/en-us/windows/wsl/about). Truy cập đường dẫn https://aka.ms/wsl2kernel để thực hiện cài đặt
+  ![Setup](./imgs/chapter2/5.png)
+- Bấm vào **WSL2 Linux kernel update package for x64 machines** để tải WSL2 về máy
+  ![Setup](./imgs/chapter2/6.png)
+- Sau khi đã tải về máy, tìm và chạy file `wsl_update_x64.msi` đề cài đặt, nhấn **Next** để tiếp tục
+  ![Setup](./imgs/chapter2/7.png)
+- Sau khi hoàn tất cài đặt WSL2, nhấn **Finish** để hoàn tất
+  ![Setup](./imgs/chapter2/8.png)
 
 ## Reference
 - [Install Docker Desktop on Windows](https://docs.docker.com/desktop/windows/install/)
