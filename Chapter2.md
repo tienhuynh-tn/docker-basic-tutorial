@@ -5,6 +5,7 @@ Bài này chỉ hướng dẫn cài đặt cho Hệ điều hành Windows. Các 
 ## Table of Contents
 - [1. Docker Desktop là gì?](#1-docker-desktop-là-gì)
 - [2. Một số tính năng chính của Docker Desktop](#2-một-số-tính-năng-chính-của-docker-desktop)
+- [3. Tải và cài đặt Docker Desktop](#3-tải-và-cài-đặt-docker-desktop)
 - [Reference](#reference)
 
 ## 1. Docker Desktop là gì?
@@ -24,6 +25,20 @@ Docker Desktop hoạt động với sự lựa chọn của bạn về các côn
 - Khả năng làm việc trên Linux thông qua WSL 2 trên Windows
 - Chứa lượng lớn code và dữ liệu, bao gồm thông báo thay đổi tệp và dễ dàng truy cập vào các vùng chứa đang chạy trên localhost network
 - In-container development and debugging với các IDE được hỗ trợ
+
+## 3. Tải và cài đặt Docker Desktop
+
+### Tải Docker Desktop
+Để tải Docker Destop, truy cập đường dẫn https://docs.docker.com/desktop/windows/install/, tìm và cài đặt Docker Desktop phù hợp với hệ điều hành của máy bạn. Bài hướng dẫn dưới đây dành cho hệ điều hành Windows
+
+### Cài đặt Docker Desktop
+- Tìm và chạy file `Docker Desktop Installer.exe` đã tải về ở trên
+- Màn hình hiện các thiết lập cho việc cài đặt, **nhấn chọn tất cả**, sau đó chọn **OK** để bắt đầu quá trình cài đặt
+  ![Configuration](./imgs/chapter2/1.png)
+- Lúc này Docker Desktop sẽ tự động được cài đặt vào máy của bạn
+  ![Setup](./imgs/chapter2/2.png)
+- Sau khi quá trình cài đặt hoàn tất, Docker Desktop sẽ yêu cầu restart máy của bạn, chọn **Close and restart**
+  ![Setup](./imgs/chapter2/3.png)
 
 ## Reference
 - [Install Docker Desktop on Windows](https://docs.docker.com/desktop/windows/install/)
