@@ -19,6 +19,7 @@
 Chapter ID | Chapter Name | Description | Date Created
 ---------- | ------------ | ----------- | ------------
 1| [Docker overview](https://github.com/tienhuynh-tn/docker-basic-tutorial/blob/main/Chapter1.md) | - What is Docker? <br/> - What is Docker used for? <br/> - Docker Architecture <br/> - Some concepts in Docker | 04-01-2022
+2| [Install Docker Desktop](https://github.com/tienhuynh-tn/docker-basic-tutorial/blob/main/Chapter2.md) | - How to install Docker Desktop? <br/> - Create Docker Hub account | 06-01-2022
 
 ## Reference
 - [Docker Documentation](https://docs.docker.com/)
