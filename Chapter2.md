@@ -51,8 +51,39 @@ Docker Desktop hoạt động với sự lựa chọn của bạn về các côn
   ![Setup](./imgs/chapter2/8.png)
 - Sau khi hoàn tất cài đặt WSL2 ở bước trên, thực hiện khởi động và mở lại Docker Desktop, màn hình hiển thị như sau
   ![Setup](./imgs/chapter2/9.png)
+- Nếu quá trình khởi động Docker Desktop vẫn chưa thành công, bạn hãy chuột phải vào icon Docker Desktop dưới thanh taskbar, chọn **Quit Docker Desktop**, và sau đó mở lại Docker Desktop là công
+  ![Setup](./imgs/chapter2/10.png)
+
+Tuy nhiên Docker Desktop là một chương trình chạy làm hao tốn rất nhiều tài nguyên của máy bạn, vì thế khi khởi động máy tính, nó sẽ được mở ngầm cùng lúc với việc khởi động Windows, điều này sẽ làm máy bạn khởi động chậm. Nên mình khuyên là hãy thực hiện những bước sau để Docker Desktop không khởi động cùng lúc với Windows của máy gây chậm máy
+- Đầu tiên mở Task Manager của máy lên
+- Chọn phần **Startup**
+  ![Setup](./imgs/chapter2/12.png)
+- Nhấn chuột phải vào mục **Status** của Docker Desktop, tại **Enable** và thay đổi thành **Disable**
+  ![Setup](./imgs/chapter2/13.png)
+  
+Như vậy là bạn đã hoàn tất quá trình tải, cài đặt Docker Desktop trên hệ điều hành Windows
+
+## 4. Tạo tài khoản trên Docker Hub
+### Docker Hub là gì?
+- Docker Hub là một dịch vụ được cung cấp bởi Docker cho việc tìm kiếm và chia sẻ container images với nhóm của bạn.
+- Đây là "kho" lưu trữ container images lớn nhất trên thế giới với một lượng lớn tài nguyên bao gồm cộng đồng các nhà phát triển container, các dự án mã nguồn mở và các nhà cung cấp phần mềm độc lập (independent software vendors - ISV) xây dựng và phân phối mã của họ trong các container
+- Người dùng có quyền truy cập các kho công khai miễn phí trên Docker Hub cho việc lưu trữ và chia sẻ images
+
+### Tạo tài khoản trên Docker Hub
+- Truy cập đường dẫn đến Docker Hub: https://hub.docker.com/
+- Chọn biểu tượng Sign Up ở góc phải màn hình
+  ![Docker Hub](./imgs/chapter2/14.png)
+- Tạo tài khoản trên Docker Hub với **tên tài khoản, email, và mật khẩu**. Sau đó nhấn chọn đồng ý vào các điều khoản của Docker Hub, và cuối cùng là nhấn **Sign Up** để hoàn tất đăng kí
+  ![Docker Hub](./imgs/chapter2/15.png)
+- Sau đó Docker Hub sẽ chuyển bạn đến trang Log In, thực hiện đăng nhập với tài khoản và mật khẩu đã đăng kí ở bước trên, chọn **Continue** để hoàn tất các bước
+
+  ![Docker Hub](./imgs/chapter2/16.png) ![Docker Hub](./imgs/chapter2/17.png)
+- Docker Hub yêu cầu bạn lựa chọn một gói hoạt động trên Docker Hub với từng mức hỗ trợ làm việc cụ thể, ở đây chúng ta sẽ chọn gói **Personal** và chọn **Continue with Free** để xác nhận
+  ![Docker Hub](./imgs/chapter2/18.png)
+  
+
+### Đăng nhập tài khoản Docker Hub trên Docker Desktop
 
 ## Reference
 - [Install Docker Desktop on Windows](https://docs.docker.com/desktop/windows/install/)
 - [Docker Desktop overview](https://docs.docker.com/desktop/)
-
