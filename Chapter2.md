@@ -49,6 +49,8 @@ Docker Desktop hoạt động với sự lựa chọn của bạn về các côn
   ![Setup](./imgs/chapter2/7.png)
 - Sau khi hoàn tất cài đặt WSL2, nhấn **Finish** để hoàn tất
   ![Setup](./imgs/chapter2/8.png)
+- Sau khi hoàn tất cài đặt WSL2 ở bước trên, thực hiện khởi động và mở lại Docker Desktop, màn hình hiển thị như sau
+  ![Setup](./imgs/chapter2/9.png)
 
 ## Reference
 - [Install Docker Desktop on Windows](https://docs.docker.com/desktop/windows/install/)
