@@ -6,6 +6,12 @@ Bài này chỉ hướng dẫn cài đặt cho Hệ điều hành Windows. Các 
 - [1. Docker Desktop là gì?](#1-docker-desktop-là-gì)
 - [2. Một số tính năng chính của Docker Desktop](#2-một-số-tính-năng-chính-của-docker-desktop)
 - [3. Tải và cài đặt Docker Desktop](#3-tải-và-cài-đặt-docker-desktop)
+  - [Tải Docker Desktop](#tải-docker-desktop)
+  - [Cài đặt Docker Desktop](#cài-đặt-docker-desktop)
+- [4. Tạo tài khoản trên Docker Hub](#4-tạo-tài-khoản-trên-docker-hub)
+  - [Docker Hub là gì?](#docker-hub-là-gì)
+  - [Tạo tài khoản trên Docker Hub](#tạo-tài-khoản-trên-docker-hub)
+  - [Đăng nhập tài khoản Docker Hub trên Docker Desktop](#đăng-nhập-tài-khoản-docker-hub-trên-docker-desktop)
 - [Reference](#reference)
 
 ## 1. Docker Desktop là gì?
@@ -80,7 +86,8 @@ Như vậy là bạn đã hoàn tất quá trình tải, cài đặt Docker Desk
   ![Docker Hub](./imgs/chapter2/16.png) ![Docker Hub](./imgs/chapter2/17.png)
 - Docker Hub yêu cầu bạn lựa chọn một gói hoạt động trên Docker Hub với từng mức hỗ trợ làm việc cụ thể, ở đây chúng ta sẽ chọn gói **Personal** và chọn **Continue with Free** để xác nhận
   ![Docker Hub](./imgs/chapter2/18.png)
-  
+- Bước cuối cùng của việc đăng kí tài khoản trên Docker Hub là xác thực tài khoản email
+  ![Docker Hub](./imgs/chapter2/19.png)  
 
 ### Đăng nhập tài khoản Docker Hub trên Docker Desktop
 
