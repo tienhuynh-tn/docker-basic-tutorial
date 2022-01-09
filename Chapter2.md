@@ -13,6 +13,7 @@ Bài này chỉ hướng dẫn cài đặt cho Hệ điều hành Windows. Các 
   - [Tạo tài khoản trên Docker Hub](#tạo-tài-khoản-trên-docker-hub)
   - [Đăng nhập tài khoản Docker Hub trên Docker Desktop](#đăng-nhập-tài-khoản-docker-hub-trên-docker-desktop)
 - [Reference](#reference)
+- [License & Copyright](#license--copyright)
 
 ## 1. Docker Desktop là gì?
 Docker Desktop là một ứng dụng cho phép bạn xây dựng và chia sẻ các ứng dụng thông qua các thùng chứa (Container)
@@ -90,7 +91,19 @@ Như vậy là bạn đã hoàn tất quá trình tải, cài đặt Docker Desk
   ![Docker Hub](./imgs/chapter2/19.png)  
 
 ### Đăng nhập tài khoản Docker Hub trên Docker Desktop
+- Mở Docker Desktop trên máy tính của bạn
+- Tại góc phải màn hình, tìm và nhấn chọn Sign In
+  ![Sign In](./imgs/chapter2/20.png)
+- Đăng nhập tài khoản Docker Hub đã đăng kí ở bước trên
+  ![Sign In](./imgs/chapter2/21.png)  
 
 ## Reference
 - [Install Docker Desktop on Windows](https://docs.docker.com/desktop/windows/install/)
 - [Docker Desktop overview](https://docs.docker.com/desktop/)
+- [Docker Hub Quickstart](https://docs.docker.com/docker-hub/)
+
+
+## License & Copyright
+&copy; 2022 Tien Huynh tienhuynh-tn Licensed under the [MIT LICENSE](https://github.com/tienhuynh-tn/docker-basic-tutorial/blob/main/LICENSE).
+
+> :love_you_gesture: Feel free to use my repository and star it if you find something interesting :love_you_gesture:
