@@ -1,10 +1,10 @@
 # Chương 3: Ứng dụng mẫu - Sample application
 
 ## Table of Contents
-- [Get the app - Tải app](#get-the-app--tải-app)
-- [Build the app’s container image - Xây dựng container image của app](#build-the-app-s-container-image--xây-dựng-container-image-của-app)
-- [Start an app container - Chạy ứng dụng](#start-an-app-container--chạy-ứng-dụng)
-- [Recap - Tổng kết](#recap--tổng-kết)
+- [Get the app - Tải app](#get-the-app---tải-app)
+- [Build the app’s container image - Xây dựng container image của app](#build-the-apps-container-image---xây-dựng-container-image-của-app)
+- [Start an app container - Chạy ứng dụng](#start-an-app-container---chạy-ứng-dụng)
+- [Recap - Tổng kết](#recap----tổng-kết)
 - [Reference](#reference)
 - [License & Copyright](#license--copyright)
 
