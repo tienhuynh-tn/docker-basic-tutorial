@@ -69,7 +69,7 @@ docker run -dp 3000:3000 getting-started
 ```
 ![5](./imgs/chapter4/5.png)
 
-2. Sau vài giây, mở trình duyệt của bạn tại địa chỉ [](http://localhost:300). Bạn sẽ thấy app của bạn.
+2. Sau vài giây, mở trình duyệt của bạn tại địa chỉ [http://localhost:3000](http://localhost:3000). Bạn sẽ thấy app của bạn.
 
 ![6](./imgs/chapter4/6.png)
 
