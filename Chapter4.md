@@ -10,9 +10,9 @@
 
 ## Get the app - Tải app
 
-
 ## Build the app’s container image - Xây dựng container image của app
 
+## Start an app container - Chạy ứng dụng
 
 ## Recap  - Tổng kết
 
