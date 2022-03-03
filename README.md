@@ -22,6 +22,7 @@ Chapter ID | Chapter Name | Description | Date Created
 2| [Install Docker Desktop](https://github.com/tienhuynh-tn/docker-basic-tutorial/blob/main/Chapter2.md) | - How to install Docker Desktop? <br/> - Create Docker Hub account | 06-01-2022
 3| [Run your first application with Docker](https://github.com/tienhuynh-tn/docker-basic-tutorial/blob/main/Chapter3.md#container-l%C3%A0-g%C3%AC?) | - How to run your first application with Docker <br/> - Docker Container? <br/> - Docker Image? | 20-01-2022
 4| [Sample application](https://github.com/tienhuynh-tn/docker-basic-tutorial/blob/main/Chapter4.md) | - Download and run todo list application <br/> - Create Dockerfile <br/> | 03-03-2022
+5| [Update the application](https://github.com/tienhuynh-tn/docker-basic-tutorial/blob/main/Chapter5.md) | - Make some update in source code <br/> - Replace old container <br/> - Start the updated app container | 03-03-2022
 
 ## Reference
 - [Docker Documentation](https://docs.docker.com/)
