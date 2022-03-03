@@ -1,4 +1,4 @@
-# Chương 3: Ứng dụng mẫu - Sample application
+# Chương 4: Ứng dụng mẫu - Sample application
 
 Tại phần hướng dẫn này, chúng ta sẽ làm việc với một ứng dụng quản lý những công việc cần làm - todo list đơn giản. Ứng dụng này được chayj bằng Node.js. Nếu bạn không quen với Node.js, đừng lo lắng. Không cần kinh nghiệm về Javascript mà vẫn có thể hoàn thành bài hướng dẫn.
 
