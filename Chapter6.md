@@ -19,13 +19,13 @@ Bây giờ chúng ta đã built được một image, hãy chia sẻ nó với m
 1. [Sign up](https://github.com/tienhuynh-tn/docker-basic-tutorial/blob/main/Chapter2.md#4-t%E1%BA%A1o-t%C3%A0i-kho%E1%BA%A3n-tr%C3%AAn-docker-hub) hoặc Sign in tới [Docker Hub](https://hub.docker.com/)
 2. Tại thẻ [**Repositories**](https://hub.docker.com/repositories), tìm và nhấp chọn **Create Repository** nút để tạo một kho mới
 
-![1](./chapter6/1.png)
+![1](./imgs/chapter6/1.png)
 
-![2](./chapter6/2.png)
+![2](./imgs/chapter6/2.png)
 
 4. Cho tên của kho, sử dụng tên `getting-started`. Hãy chắc chắn rằng sự hiển thị là **Public - Công khai**
 
-![3](./chapter6/3.png)
+![3](./imgs/chapter6/3.png)
 
 **Note:** **Private repositories** - Bạn có biết rằng Docker hỗ trợ các kho riêng tư, cái mà cho phép bạn hạn chế nội dung với người dùng hoặc một nhóm cụ thể? Hãy kiểm tra chi tiết trong Docker pricing.
 
@@ -35,7 +35,7 @@ Bây giờ chúng ta đã built được một image, hãy chia sẻ nó với m
 
 1. Trong command line, hãy thử chạy câu lệnh push mà bạn thấy được sau khi tạo một kho mới trên Docker Hub. Chú ý rằng câu lệnh sẽ được sử dụng với namespace của bạn, không phải là "docker"
 
-![4](./chapter6/4.png)
+![4](./imgs/chapter6/4.png)
 
 ```
 docker push docker/getting-started
@@ -43,17 +43,17 @@ docker push docker/getting-started
 
 **Note:** Khởi động Docker Desktop trước khi thực hiện chạy câu lệnh
 
-![5](./chapter6/5.png)
+![5](./imgs/chapter6/5.png)
 
 Tại sao chạy câu lệnh không thành công? Câu lệnh push đã tìm kiếm một image tên tienhuynhtn/getting-started nhưng lại không tìm thấy. Nếu bạn thực hiện chạy câu lệnh `docker image ls`, bạn sẽ không thấy.
 
-![6](./chapter6/6.png)
+![6](./imgs/chapter6/6.png)
 
 Để sửa lỗi này, chúng ta cần "tag - gắn thẻ" image hiện tại mà chúng ta đã built để cung cấp cho nó một cái tên khác
 
 2. Đăng nhập vào Docker Hub sử dụng câu lệnh `docker login -u YOUR-USER-NAME`
 
-![7](./chapter6/7.png)
+![7](./imgs/chapter6/7.png)
 
 **Note:** Sẽ có yêu cầu bạn nhập password của tài khoản Docker Hub
 
@@ -63,7 +63,7 @@ Tại sao chạy câu lệnh không thành công? Câu lệnh push đã tìm ki�
 docker tag getting-started YOUR-USER-NAME/getting-started
 ```
 
-![8](./chapter6/8.png)
+![8](./imgs/chapter6/8.png)
 
 4. Bây giờ thực hiện câu lệnh push ở bước 1 một lần nữa. Nếu bạn copy câu lệnh được gợi ý trong Docker Hub, bạn có thể bỏ phần `tagname` ở cuối câu lệnh, chúng ta không cần thêm tag cho tên của image. Nếu bạn không dùng một loại tag đặc biệt nào, Docker sẽ sử dụng tag tên `latest`
 
@@ -71,7 +71,7 @@ docker tag getting-started YOUR-USER-NAME/getting-started
 docker push YOUR-USER-NAME/getting-started
 ```
 
-![9](./chapter6/9.png)
+![9](./imgs/chapter6/9.png)
 
 ## Run the image on a new instance - Chạy image trên một instance mới 
 
@@ -80,15 +80,15 @@ Bây giờ image đã được built và được đẩy vào một registry, h�
 1. Mở trình duyệt của bạn và đi đến [Play with Docker](https://labs.play-with-docker.com/)
 2. Nhấn **Login** và sau đó chọn **docker** từ danh sách xổ xuống.
 
-![10](./chapter6/10.png)
+![10](./imgs/chapter6/10.png)
 
 3. Kết nối với tài khoản Docker Hub của bạn
 
-![11](./chapter6/11.png)
+![11](./imgs/chapter6/11.png)
 
 4. Nhấn **Start** để bắt đầu. Nhấn chọn **+ ADD NEW INSTANCE** ở thanh công cụ phía bên trái màn hình. Nếu bạn không tìm thấy nút đó, hãy mở rộng cửa sổ trình duyệt của bạn. Sau một vài giây, một cửa sổ terminal mở ra trong trình duyệt của bạn.
 
-![12](./chapter6/12.png)
+![12](./imgs/chapter6/12.png)
 
 5. Trong terminal. chạy image đã được push khi nãy
 
@@ -96,7 +96,7 @@ Bây giờ image đã được built và được đẩy vào một registry, h�
 docker run -dp 3000:3000 YOUR-USER-NAME/getting-started
 ```
 
-![13](./chapter6/13.png)
+![13](./imgs/chapter6/13.png)
 
 Bạn sẽ thấy image được kéo xuống (pull) và khởi động tại port 3000!
 
