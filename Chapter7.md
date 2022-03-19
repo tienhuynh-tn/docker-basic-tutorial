@@ -26,6 +26,8 @@ Khi một container chạy, nó sử dụng các lớp khác như từ một ima
 docker run -d ubuntu bash -c "shuf -i 1-10000 -n 1 -o /data.txt && tail -f /dev/null"
 ```
 
+Trong trường hợp bạn tò mò về câu lệnh, chúng ta khởi động một bash shell và gọi hai lệnh (lý do chúng ta có `&&`). Phần đầu tiên chọn một số ngẫu nhiên và viết nó vào `/data.txt`. Dòng lệnh thứ hai chỉ đơn giản là xem một tệp để giữ cho container chạy.
+
 ## Container volumes
 
 ## Persist the todo data
