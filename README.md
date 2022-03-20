@@ -24,6 +24,7 @@ Chapter ID | Chapter Name | Description | Date Created
 4| [Sample application](https://github.com/tienhuynh-tn/docker-basic-tutorial/blob/main/Chapter4.md) | - Download and run todo list application <br/> - Create Dockerfile <br/> | 03-03-2022
 5| [Update the application](https://github.com/tienhuynh-tn/docker-basic-tutorial/blob/main/Chapter5.md) | - Make some update in source code <br/> - Replace old container <br/> - Start the updated app container | 03-03-2022
 6| [Share the application](https://github.com/tienhuynh-tn/docker-basic-tutorial/blob/main/Chapter6.md) | - Create a repo <br/> - Push the image <br/> - Run the image on a new instance | 13-03-2022
+7| [Persist the DB](https://github.com/tienhuynh-tn/docker-basic-tutorial/blob/main/Chapter7.md) | - The container’s filesystem <br/> - Container volumes <br/> - Persist the todo data <br/> - Dive into the volume | 20-03-2022
 
 ## Reference
 - [Docker Documentation](https://docs.docker.com/)
