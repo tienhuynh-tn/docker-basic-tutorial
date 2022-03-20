@@ -7,7 +7,7 @@ Có thể bạn không chú ý đến điều này, rằng danh sách những vi
   - [See this in practice](#see-this-in-practice)
 - [Container volumes](#container-volumes)
 - [Duy trì dữ liệu danh sách các việc cần làm - Persist the todo data](#duy-trì-dữ-liệu-danh-sách-các-việc-cần-làm---persist-the-todo-data)
-- [Dive into the volume](#dive-into-the-volume)
+- [Khám phá volume - Dive into the volume](#khám-phá-volume---dive-into-the-volume)
 - [Recap - Tổng kết](#recap----tổng-kết)
 - [Reference](#reference)
 - [License & Copyright](#license--copyright)
@@ -112,15 +112,33 @@ docker run -dp 3000:3000 -v todo-db:/etc/todos getting-started
 
 6. Bắt đầu một container mới và sử dụng cùng một câu lệnh như trên
 
+![13](./imgs/chapter7/13.png)
+
 7. Mở ứng dụng. Bạn sẽ thấy các việc cần làm mà bạn tạo khi nãy vẫn còn!
+
+![14](./imgs/chapter7/14.png)
 
 8. Tiếp tục và loại bỏ container khi bạn hoàn thành những việc cần làm trong danh sách
 
 Như vậy bạn đã học được cách duy trì dữ liệu!
 
-## Dive into the volume
+## Khám phá volume - Dive into the volume
+
+Rất nhiều người thường hay hỏi "Docker đang thực sự lưu trữ dữ liệu của tôi khi tôi sử dụng một volume?" Nếu bạn muốn biết, bạn có thể sử dụng câu lệnh `docker volume inspect`
+
+```
+docker volume inspect todo-db
+```
+
+![15](./imgs/chapter7/15.png)
+
+`Mountpoint` là vị trí thực tế trên đĩa nơi lưu trữ dữ liệu.
+
+**Note:** Trong khi chạy trong Docker Desktop, các lệnh docker thực sự đang chạy bên trong một VM nhỏ trên máy của bạn. Nếu bạn muốn xem nội dung thực tế của thư mục Mountpoint, trước tiên bạn cần phải vào bên trong VM.
 
 ## Recap  - Tổng kết
+
+Tại thời điểm hiện tại, chúng ta đã hoàn tất việc duy trì dữ liệu của ứng dụng.
 
 ## Reference
 - [Docker Documentation](https://docs.docker.com/get-started/)
